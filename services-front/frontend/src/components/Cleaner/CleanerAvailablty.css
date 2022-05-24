@@ -1,0 +1,76 @@
+.available{
+    font-family: 'Poppins', sans-serif;
+    text-align:center; 
+    margin-top: 7%;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-bottom: 2px solid #19C133;
+    
+}
+.avail{
+    background-color: white !important;
+    margin:5%;
+
+    
+    
+}
+.availability_card{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+}
+.avah{
+        margin-top: 4%;
+        margin-left: 2%;    
+}
+.iconava{
+    margin-top: 5%;
+    height: 100px !important;
+    font-size: 100px !important;
+    color: #19C133;
+    float: right !important;
+    
+
+    
+
+}
+.btnava{
+    display: flex;
+    justify-content: space-around;
+}
+.avabtn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid #19C133;
+    position: relative;
+    z-index: 1;
+}
+.avabtn:hover{
+color: #fff;
+cursor: pointer;
+}
+.avabtn:before{
+transition: 0.5s all ease;
+position: absolute;
+top: 0;
+ left: 50%;
+ right: 50%;
+bottom: 0;
+opacity: 0;
+content: "";
+background-color: #262c33;
+}
+.avabtn:hover:before{
+transition: 0.5s all ease;
+ left: 0;
+ right: 0;
+opacity: 1;
+ z-index: -1;
+}

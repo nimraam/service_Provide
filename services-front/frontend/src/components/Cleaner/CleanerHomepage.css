@@ -1,0 +1,160 @@
+.clhome{
+    margin-top: 5%;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: #19C133;
+    
+}
+.clrow{
+    background-color: white !important;
+    margin: 5%;
+}
+.cleaner_home_card{
+    box-shadow:15px 20px 15px 20px rgba(0,0,0,.1);
+}
+
+.cl{
+    font-family: 'Poppins', sans-serif;
+    text-align:center; 
+    margin-top: 7%;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-bottom: 2px solid #19C133;
+}
+.clcont{
+        margin-top: 4%;
+        margin-left: 2%;    
+}
+.iconclhome{
+    margin-top: 5%;
+    height: 100px !important;
+    font-size: 100px !important;
+    color: #19C133;
+    float: right !important;
+    
+
+}
+.btncleanerhome{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clhbtn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid #19C133;
+    position: relative;
+    z-index: 1;
+}
+.clhbtn:hover{
+color: #fff;
+cursor: pointer;
+}
+.clhbtn:before{
+transition: 0.5s all ease;
+position: absolute;
+top: 0;
+ left: 50%;
+ right: 50%;
+bottom: 0;
+opacity: 0;
+content: "";
+background-color: #262c33;
+}
+.clhbtn:hover:before{
+transition: 0.5s all ease;
+ left: 0;
+ right: 0;
+opacity: 1;
+ z-index: -1;
+}
+.carocard{
+    height: 80vh !important;
+    background-color: #F6F8FF;
+    
+}
+
+.cardbtncaro{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contcarocard{
+    margin-top: 10%;
+    width:80% !important;
+   margin-left: 10%;
+
+}
+
+.carocardrow{
+    background-color: white !important;
+    margin: 5%;
+    
+}
+.carocardcont{
+        margin-top: 4%;
+        margin-left: 2%;    
+}
+.iconcarocard{
+    
+    height: 100px !important;
+    font-size: 100px !important;
+    color: #19C133;
+    float: right !important;
+    
+
+}
+
+.carocardbtn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid #19C133;
+    position: relative;
+    z-index: 1;
+}
+.carocardbtn:hover{
+color: #fff;
+cursor: pointer;
+}
+.carocardbtn:before{
+transition: 0.5s all ease;
+position: absolute;
+top: 0;
+ left: 50%;
+ right: 50%;
+bottom: 0;
+opacity: 0;
+content: "";
+background-color: #262c33;
+}
+.carocardbtn:hover:before{
+transition: 0.5s all ease;
+ left: 0;
+ right: 0;
+opacity: 1;
+ z-index: -1;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2319C133' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2319C133' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }

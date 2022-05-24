@@ -1,0 +1,158 @@
+body{
+    background-color:#F6F8FF
+}
+.gridregister{
+    height: 210vh;
+    background-image: url('../../images/Register_bg.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% !important;
+
+}
+.gridregistercustomer{
+    height: 180vh;
+    background-image: url('../../images/Register_bg.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% !important;
+
+}
+.registerbtnhome{
+    height: 55px;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 2rem;
+        outline: none;
+        border: 3px solid #19C133;
+        position: relative;
+        z-index: 1;
+}
+.registerbtncustomer{
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid #19C133;
+    position: relative;
+    z-index: 1;
+    width: 30%;
+    margin-left: 35% !important;
+    margin-top: 5% !important;
+    
+}
+.registerbtn{
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid #19C133;
+    position: relative;
+    z-index: 1;
+    width: 30%;
+    margin-left: 30% !important;
+    margin-top: 5% !important;
+    
+}
+.registerbtn:hover,.registerbtncustomer:hover,.registerbtnhome:hover{
+    color: #fff;
+   cursor: pointer;
+}
+.registerbtn:before,.registerbtncustomer::before,.registerbtnhome::before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+     left: 50%;
+     right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #262c33;
+}
+.registerbtn:hover:before,.registerbtncustomer:hover::before,.registerbtnhome:hover::before{
+    transition: 0.5s all ease;
+     left: 0;
+     right: 0;
+    opacity: 1;
+     z-index: -1;
+}
+.registerpaper{
+    height: 180vh;
+}
+.registerpapercustomer{
+    height: 150vh;
+}
+
+@media screen and (max-width: 990px){
+   .registerpapercustomer{
+       height: 160vh;
+   }
+}
+
+@media screen and (max-width: 658px){
+    .registerpapercustomer{
+        height: 160vh;
+    }
+    .registerbtn{
+        margin-bottom:25% ;
+        width: 70%;
+        margin-left:  15% !important;
+        margin-top: 10% !important;
+    }
+    .registerbtncustomer{
+        margin-top: 10% !important;
+        margin-bottom: 25% !important;
+        width: 70%;
+        margin-left:  15% !important;
+    }
+    .registerpaper{
+       height: 200vh;
+    }
+    .gridregister{
+        height: 220vh;
+       
+    }
+}
+@media screen and (max-width: 780px){
+    .registerpapercustomer{
+        height: 170vh;
+    }
+    .registerbtncustomer{
+        margin-top: 10% !important;
+        margin-bottom: 25% !important;
+        width: 70%;
+        margin-left:  15% !important;
+    }
+    .registerbtn{
+        margin-bottom:25% ;
+        width: 70%;
+        margin-left:  15% !important;
+        margin-top: 10% !important;
+    }
+    .registerpaper{
+       height: 200vh;
+    }
+    .gridregistercustomer{
+        height: 200vh;
+    }
+    .gridregister{
+        height: 220vh;
+       
+    }
+}
+
+@media screen and (max-width: 826px){
+
+    .registerpaper{
+        height: 195vh;
+    }
+}
